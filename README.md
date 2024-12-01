@@ -35,3 +35,6 @@ This project uses a deep convolutional neural network (CNN) to colorize grayscal
 Here's an example of the output image after colorization:
 
 ![Colorized Image](prediction_output.png)
+
+### Resources Used:
+- Tutorial: [Link to the video](https://www.youtube.com/watch?v=WXyeQeHUxpc)
