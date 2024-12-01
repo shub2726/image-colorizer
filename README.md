@@ -13,32 +13,15 @@ This project uses a deep convolutional neural network (CNN) to colorize grayscal
 - **Image Display**: Displays the original, grayscale, and colorized images side by side.
 - **Save Output**: Saves the colorized image as a new file.
 
-## Installation
-
-To use this project locally, follow these steps:
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/image-colorizer.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd image-colorizer
-    ```
-3. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
 ## Usage
 
 1. Run the script to colorize an image:
     ```bash
-    python colorizer.py
+    python predict.py
     ```
-2. A file dialog will appear. Select the grayscale image you want to colorize.
+2. A file dialog will appear. Select the image you want to colorize.
 3. The colorized image will be displayed alongside the original grayscale image.
-4. The colorized image will be saved as `colorized_output.png`.
+4. The colorized image will be saved as `prediction_output.png`.
 
 ## Requirements
 
@@ -49,9 +32,9 @@ To use this project locally, follow these steps:
 
 ### Example Output
 
-| Original Image | Grayscale Image | Colorized Image |
-|----------------|-----------------|-----------------|
-| ![Original](images/original.png) | ![Grayscale](images/grayscale.png) | ![Colorized](images/colorized.png) |
+Here's an example of the output image after colorization:
+
+![Colorized Image](prediction_output.png)
 
 ## License
 
