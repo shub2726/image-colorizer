@@ -35,9 +35,3 @@ This project uses a deep convolutional neural network (CNN) to colorize grayscal
 Here's an example of the output image after colorization:
 
 ![Colorized Image](prediction_output.png)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
